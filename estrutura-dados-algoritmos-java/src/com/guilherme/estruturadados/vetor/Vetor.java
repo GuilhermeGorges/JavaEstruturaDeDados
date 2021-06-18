@@ -9,6 +9,8 @@ import java.util.Arrays;
 
 public class Vetor {
     
+    // definição aula 1
+    
     private String[] elementos; 
     private int tamanho;
     
@@ -17,6 +19,8 @@ public class Vetor {
         this.tamanho = 0;
         
     }
+    
+    // aula02 adicionar elemento final vetor 
     
     /*public void adiciona(String elemento){
         
@@ -38,7 +42,10 @@ public class Vetor {
         }
     }  
     */
+    // aula 02 adicionar elemento final vetor
+    
     public boolean adiciona(String elemento) {
+        this.aumentaCapacidade();
         if (this.tamanho < this.elementos.length){
             this.elementos[this.tamanho] = elemento;    
             this.tamanho++;
@@ -48,9 +55,42 @@ public class Vetor {
         return false;
 
     }  
+    // aula07 adicionar elemento em qualquer posição
+    
+    public void adiciona(int posicao, String elemento) {
+        
+        if (!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posição inválida");
+        }                
+        
+        this.aumentaCapacidade();
+        
+        // mover todos elementos
+        for (int i=this.tamanho-1; i >= posicao; i--){
+            this.elementos[i+1] = this.elementos[i];            
+        }
+        
+        this.elementos[posicao] = elemento;        
+        this.tamanho++;    
+        
+    }
+    
+    // aula 08 aumentar capacidade vetor
+    
+    private void aumentaCapacidade(){
+        if (this.tamanho == this.elementos.length){
+            String[] elementosNovos = new String[this.elementos.length * 2];
+            for (int i = 0; i < this.elementos.length; i++){
+                elementosNovos[i] = this.elementos[i];
+            }
+            this.elementos = elementosNovos;
+        }
+    }
+    
+    
+    // aula05 obter elemento de uma posição
     
     public String busca(int posicao){
-        
         if (!(posicao >= 0 && posicao < tamanho)){
             throw new IllegalArgumentException("Posição inválida");
         }
@@ -58,9 +98,25 @@ public class Vetor {
         return this.elementos[posicao];
     }
     
+    // aula06 verificar se elemento existe no vetor
+    
+    public int busca(String elemento){
+        for (int i=0; i<this.tamanho; i++){
+            if(this.elementos[i].equalsIgnoreCase(elemento)){
+                return i;
+            }
+        }
+                return -1;
+    }
+    
+    // aula03 verificar quuantidade vetor
+    
     public int tamanho(){
         return this.tamanho;    
     }
+    
+    
+    // aula 04 imprimir elementos do vetor
 
     @Override
     public String toString() {
@@ -82,7 +138,8 @@ public class Vetor {
         s.append("]");
         
         return s.toString();
-    }
+    }   
+    
     
     
 }
