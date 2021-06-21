@@ -109,6 +109,20 @@ public class Vetor {
                 return -1;
     }
     
+    // aula09 remover elemento do vetor
+    
+    public void remove(int posicao){
+        if (!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posição inválida");
+        }
+        for (int i = posicao; i<this.tamanho-1; i++){
+            this.elementos[i] = this.elementos[i+1];
+        }
+        this.tamanho--;       
+        
+    }
+    
+    
     // aula03 verificar quuantidade vetor
     
     public int tamanho(){
