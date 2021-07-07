@@ -13,7 +13,6 @@ import java.util.Objects;
  */
         //generalizar os tipos de vetor aula 10 
 
-
 public class Contato {
 
     private String nome;
