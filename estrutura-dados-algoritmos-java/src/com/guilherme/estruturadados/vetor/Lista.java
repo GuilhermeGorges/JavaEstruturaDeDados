@@ -5,6 +5,8 @@
  */
 package com.guilherme.estruturadados.vetor;
 
+import java.lang.reflect.Array;
+
 /**
  *
  * @author Gui e Di
@@ -19,16 +21,16 @@ public class Lista<T> {
     public Lista(int capacidade) {
         this.elementos = (T[]) new Object[capacidade];
         this.tamanho = 0;
-
     }
-
-    /*
+    
+    public Lista(){
+        this(10);
+    }
+    
     public Lista(int capacidade, Class<T> tipoClasse){
-        this.elementos = (T[] Array.newInstance(tipoClasse, capacidade));
-        this.tamanho = 0;
-        
+        this.elementos = (T[]) Array.newInstance(tipoClasse, capacidade);
+        this.tamanho = 0;        
     }
-     */
 
     // aula 02 adicionar elemento final vetor
     public boolean adiciona(T elemento) {
@@ -44,7 +46,7 @@ public class Lista<T> {
     }
     // aula07 adicionar elemento em qualquer posição
 
-    public void adiciona(int posicao, T elemento) {
+    public boolean adiciona(int posicao, T elemento) {
 
         if (!(posicao >= 0 && posicao < tamanho)) {
             throw new IllegalArgumentException("Posição inválida");
@@ -59,7 +61,8 @@ public class Lista<T> {
 
         this.elementos[posicao] = elemento;
         this.tamanho++;
-
+        
+        return true;
     }
 
     // aula 08 aumentar capacidade vetor

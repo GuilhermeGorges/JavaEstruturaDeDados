@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class Exer02 {
     public static void main(String[] args) {
-    //Lista<String> lista = new Lista<String>(5);
+    //Lista<String> lista = new ArrayList<String>(5);
     ArrayList<String> arrayList = new ArrayList<String>(5);
     arrayList.add("A");
     arrayList.add("B");

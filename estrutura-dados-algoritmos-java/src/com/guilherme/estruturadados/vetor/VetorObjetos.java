@@ -34,7 +34,7 @@ public class VetorObjetos {
     }  
     // aula07 adicionar elemento em qualquer posição
     
-    public void adiciona(int posicao, Object elemento) {
+    public boolean adiciona(int posicao, Object elemento) {
         
         if (!(posicao >= 0 && posicao < tamanho)){
             throw new IllegalArgumentException("Posição inválida");
@@ -48,8 +48,10 @@ public class VetorObjetos {
         }
         
         this.elementos[posicao] = elemento;        
-        this.tamanho++;    
+        this.tamanho++; 
         
+        return true;
+      
     }
     
     // aula 08 aumentar capacidade vetor
