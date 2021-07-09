@@ -11,7 +11,7 @@ import com.guilherme.estruturadados.pilha.Pilha;
  *
  * @author Gui e Di
  */
-public class Aula03 {
+public class Aula13 {
     public static void main(String[] args) {
         
         Pilha<Integer> pilha = new Pilha<>();
