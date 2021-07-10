@@ -17,7 +17,7 @@ public class Exer06 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        System.out.println("Digite um palindromo: ");
+        System.out.println("Digite uma expressão: ");
         String expressao = scan.nextLine();
         
         imprimeResultado(expressao);
