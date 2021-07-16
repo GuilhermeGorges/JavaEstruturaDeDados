@@ -10,7 +10,7 @@ import java.util.Stack;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Aula18 {
     public static void main(String[] args) {

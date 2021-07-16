@@ -13,7 +13,7 @@ import java.util.Scanner;
 import com.guilherme.estruturadados.vetor.teste.Contato;
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Exer07 extends Exer06 {
 

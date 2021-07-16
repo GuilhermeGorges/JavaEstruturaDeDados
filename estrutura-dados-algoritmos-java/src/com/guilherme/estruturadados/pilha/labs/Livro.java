@@ -7,7 +7,7 @@ package com.guilherme.estruturadados.pilha.labs;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Livro {
     

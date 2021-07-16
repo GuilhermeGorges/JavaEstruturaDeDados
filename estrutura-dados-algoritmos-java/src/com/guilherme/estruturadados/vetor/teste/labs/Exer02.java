@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Exer02 {
     public static void main(String[] args) {

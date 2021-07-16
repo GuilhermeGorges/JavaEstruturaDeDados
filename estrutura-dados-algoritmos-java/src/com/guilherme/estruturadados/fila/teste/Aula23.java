@@ -10,7 +10,7 @@ import java.util.Queue;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Aula23 {
     public static void main(String[] args) {

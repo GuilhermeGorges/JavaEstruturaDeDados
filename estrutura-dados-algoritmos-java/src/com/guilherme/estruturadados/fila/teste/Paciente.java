@@ -7,7 +7,7 @@ package com.guilherme.estruturadados.fila.teste;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Paciente implements Comparable<Paciente> {
 

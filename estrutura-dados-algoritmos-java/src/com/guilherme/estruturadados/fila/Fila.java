@@ -9,7 +9,7 @@ import com.guilherme.estruturadados.base.EstruturaEstatica;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Fila<T> extends EstruturaEstatica<T>{
     

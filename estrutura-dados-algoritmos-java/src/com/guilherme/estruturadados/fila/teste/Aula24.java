@@ -9,7 +9,7 @@ import com.guilherme.estruturadados.fila.FilaComPrioridade;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Aula24 {
     public static void main(String[] args) {

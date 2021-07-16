@@ -7,7 +7,7 @@ package com.guilherme.estruturadados.fila.labs;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Documento {
     

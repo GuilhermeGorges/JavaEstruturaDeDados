@@ -9,7 +9,7 @@ import com.guilherme.estruturadados.vetor.Vetor;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Aula04 {
     public static void main(String[] args) {

@@ -9,7 +9,7 @@ import com.guilherme.estruturadados.vetor.Lista;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Exer01 {
     public static void main(String[] args) {

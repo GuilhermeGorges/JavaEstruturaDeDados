@@ -10,7 +10,7 @@ import java.util.Random;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class PSNovosPacientes implements Runnable {
 

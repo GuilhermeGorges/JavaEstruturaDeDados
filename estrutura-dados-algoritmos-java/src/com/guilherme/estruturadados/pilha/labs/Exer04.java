@@ -9,7 +9,7 @@ import java.util.Stack;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Exer04 {
 

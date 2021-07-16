@@ -7,7 +7,7 @@ package com.guilherme.estruturadados.fila;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class FilaComPrioridade<T> extends Fila<T>{
     

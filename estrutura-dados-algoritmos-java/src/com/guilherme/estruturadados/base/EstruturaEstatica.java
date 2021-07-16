@@ -7,7 +7,7 @@ package com.guilherme.estruturadados.base;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class EstruturaEstatica<T> {
 

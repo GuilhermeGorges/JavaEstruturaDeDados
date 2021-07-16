@@ -9,7 +9,7 @@ import java.lang.reflect.Array;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Lista<T> {
 

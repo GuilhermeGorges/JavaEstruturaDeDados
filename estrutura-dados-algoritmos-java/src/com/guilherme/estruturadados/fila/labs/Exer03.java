@@ -9,7 +9,7 @@ import com.guilherme.estruturadados.fila.FilaComPrioridade;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Exer03 {
     

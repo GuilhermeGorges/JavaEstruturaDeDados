@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Aula12 {
     public static void main(String[] args) {

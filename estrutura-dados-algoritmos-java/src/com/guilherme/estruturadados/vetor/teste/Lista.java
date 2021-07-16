@@ -7,7 +7,7 @@ package com.guilherme.estruturadados.vetor.teste;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 class Lista<T> {
 

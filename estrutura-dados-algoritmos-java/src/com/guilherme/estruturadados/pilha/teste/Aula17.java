@@ -9,7 +9,7 @@ import com.guilherme.estruturadados.pilha.Pilha;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Aula17 {
     public static void main(String[] args) {

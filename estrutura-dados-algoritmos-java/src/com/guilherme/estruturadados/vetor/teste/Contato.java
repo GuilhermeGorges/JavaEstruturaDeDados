@@ -9,7 +9,7 @@ import java.util.Objects;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
         //generalizar os tipos de vetor aula 10 
 

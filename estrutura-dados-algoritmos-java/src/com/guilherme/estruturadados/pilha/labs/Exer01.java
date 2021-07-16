@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gui e Di
+ *  
  */
 public class Exer01 {
 
